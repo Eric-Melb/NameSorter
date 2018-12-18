@@ -17,11 +17,17 @@
  
 ## Assumptions
  - Names will be valid UTF-8 strings
+ 
  - Delimiter between names is a line break
+ 
  - Names may contain up to four words, delimited by space, words joined with a hyphen count as a single word for purposes of this rule
+ 
  - Names are to be sorted based on last name, then given name
- - "A name must have at least 1 given name and may have up to 3 given names" This is a constraint on given names, there is no constraint on the last names, so it is possible it may not exist for some names. As we need to sort on last names we will store any single word full names as a last name and no given names to enable comparison. This will have no impact on names that do contain a last name. All separable name portions are still assumed to be space delimited.
+ 
  - Names are not necessarily unique
+ 
+ - "A name must have at least 1 given name and may have up to 3 given names" This is a constraint on given names, there is no constraint on the last names, so it is possible it may not exist for some names. As we need to sort on last names we will store any single word full names as a last name and no given names to enable comparison. This will have no impact on names that do contain a last name. All separable name portions are still assumed to be space delimited.
+ 
  - That, to allow there to be a good amount of testable code, "our goal is not to see you implement a trivial sorting
 algorithm" means "implement a trivial sorting algorithm, though it is not the goal" rather than "just use [collection].Sort()" (although a CompareTo() method has been added for names to enable collection Sort methods and for use in the implemented sort)
 
