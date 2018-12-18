@@ -30,6 +30,6 @@ Testing framework utilised is nUnit
 
 Tests were run with Resharper, coverage below
 
-One test relies on `test-unsorted-names-list.txt` existing in the appropriate bin directory for the `.Tests` project (this is included in the repo). Another relies on "this-file-does-not-exist.txt" not existing in that directory.
+One test relies on `test-unsorted-names-list.txt` existing in the appropriate bin directory for the `.Tests` project (this is included in the repo). Another relies on `this-file-does-not-exist.txt` not existing in that directory.
 
 <img src=https://i.imgur.com/gz6Nk3O.png>
