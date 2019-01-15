@@ -1,4 +1,4 @@
-# Name Sorter - Coding Assignment Submission
+# Name Sorter
  
 ## Building & Running
  Build process is manual.
